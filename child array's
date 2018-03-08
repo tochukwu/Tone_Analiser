@@ -1,0 +1,26 @@
+
+ArrayList<Children1> mc = t.getChildren();
+              Children1 c1 = mc.get(0); //needs and values
+              
+                ArrayList<children2> c2 = c1.getChildren();
+                children2 op1 = c2.get(0); // personality
+                
+                ArrayList<children3> c3 = op1.getChildren();
+                children3 op2 = c3.get(0);
+                
+                ArrayList<Children4> c4 = op2.getChildren();
+                Children4 op = c4.get(0);
+                Children4 con = c4.get(1);
+                Children4 ext = c4.get(2);
+                Children4 agr = c4.get(3);
+                Children4 neu = c4.get(4);
+                
+                openpercentage = op.getPercentage();
+                conpercentage = con.getPercentage();
+                extpercentage = ext.getPercentage();
+                agreepercentage = agr.getPercentage();
+                neurpercentage = neu.getPercentage();
+                
+/**
+* traversing through child array 
+*/  
